@@ -1,0 +1,45 @@
+{
+    "teams": [
+        {
+            "cover": "/teams/dc.png", 
+            "title": "Delhi Capitals"
+        }, 
+        {
+            "cover": "/teams/csk.png", 
+            "title": "Chennai Super Kings"
+        },
+        {
+            "cover": "/teams/mi.png", 
+            "title": "Mumbai Indians"
+        },
+        {
+            "cover": "/teams/rcb.png", 
+            "title": "Royal Challangers Banglore"
+        },
+        {
+            "cover": "/teams/srh.png", 
+            "title": "Sunrisers Hydrabad"
+        },
+        {
+            "cover": "/teams/gt.png", 
+            "title": "Gujrat Titans"
+        },
+        {
+            "cover": "/teams/lsg.png", 
+            "title": "Lucknow Super Giants"
+        }, 
+        {
+            "cover": "/teams/rr.png", 
+            "title": "Rajasthan Royals"
+        },
+        {
+            "cover": "/teams/kkr.png", 
+            "title": "Kolkata Knight Riders"
+        },
+        {
+            "cover": "/teams/pb.png", 
+            "title": "Punjab Kings"
+        }
+       
+    ]
+}

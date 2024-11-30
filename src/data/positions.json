@@ -1,0 +1,24 @@
+{
+    "positions": [
+        {
+            "cover": "/positions/Batsman.jpg", 
+            "title": "Batsman", 
+            "search": "Batsman"
+        }, 
+        {
+            "cover": "/positions/Bowler.jpg", 
+            "title": "Bowler", 
+            "search": "Bowler"
+        },
+        {
+            "cover": "/positions/All-Rounder.jpg", 
+            "title": "All-Rounder", 
+            "search": "All-Rounder"
+        },
+        {
+            "cover": "/positions/Wicket-Keeper.jpg", 
+            "title": "Wicket-Keeper", 
+            "search": "Wicket-Keeper"
+        }
+    ]
+}

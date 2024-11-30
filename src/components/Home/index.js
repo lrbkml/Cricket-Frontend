@@ -42,6 +42,7 @@ const Home = () => {
       </div>
 
        {/* Developer Info */}
+      
        <div className="developer-info">
             <h1>Developed by <strong>Laraib Kamal</strong></h1>
             
@@ -58,7 +59,7 @@ const Home = () => {
             </div>
         
           </div>
-
+        
       <Loader type="pacman" />
     </>
   );

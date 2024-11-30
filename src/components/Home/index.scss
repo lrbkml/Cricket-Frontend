@@ -1,152 +1,356 @@
-.home-page{ 
-    .text-zone { 
-        position: absolute; 
-        align-content: center;
-        left: 10%; 
-        top: 50%; 
-        transform: translateY(-50%); 
-        width: 40%; 
-        max-height: 90%; 
-        display: absolute;
-    }
-    h1{
-        color: #1d3d8d; 
-        font-size: 53px; 
-        margin: 0; 
-        font-weight: 400; 
-        cursor: pointer;
+// .home-page{ 
+//     .text-zone { 
+//         position: absolute; 
+//         align-content: center;
+//         left: 10%; 
+//         top: 50%; 
+//         transform: translateY(-50%); 
+//         width: 40%; 
+//         max-height: 90%; 
+//         display: absolute;
+//     }
+//     h1{
+//         color: #1d3d8d; 
+//         font-size: 53px; 
+//         margin: 0; 
+//         font-weight: 400; 
+//         cursor: pointer;
 
-        &::before { 
-            color: #ffd700; 
-            font-size: 18px; 
-            position: absolute; 
-            margin-top: -40px; 
-            left: 15px; 
-            opacity: 0.6; 
-        }
+//         &::before { 
+//             color: #0066ff; 
+//             font-size: 18px; 
+//             position: absolute; 
+//             margin-top: -40px; 
+//             left: 15px; 
+//             opacity: 0.6; 
+//         }
 
-        &::after { 
-            color: #ffd700; 
-            font-size: 18px; 
-            position: absolute; 
-            margin-top: 18px; 
-            left: 20px; 
-            animation: fadeIn 1s 1.7s backwards; 
-            opacity: 0.6; 
-        }
-        img { 
-            width: 400px; 
-            opacity: 0; 
-            height: auto; 
-            animation: rotateIn 1s linear both; 
-            animation-delay: 1.4s; 
-        }
-    }
+//         &::after { 
+//             color: #ffd700; 
+//             font-size: 18px; 
+//             position: absolute; 
+//             margin-top: 18px; 
+//             left: 20px; 
+//             animation: fadeIn 1s 1.7s backwards; 
+//             opacity: 0.6; 
+//         }
+//         img { 
+//             width: 200px; 
+//             opacity: 0; 
+//             height: auto; 
+//             animation: rotateIn 1s linear both; 
+//             animation-delay: 1.4s; 
+          
+//         }
+//     }
 
-    h2 { 
-        color: #002687; 
-        margin-top: 20px; 
-        font-weight: 500; 
-        font-size: 18px; 
-        font-family: sans-serif; 
-        letter-spacing: 3px; 
-        animation: fadeIn 1s 1.8s backwards; 
-    }
+//     h2 { 
+//         color: #002687; 
+//         margin-top: 20px; 
+//         font-weight: 500; 
+//         font-size: 11px; 
+//         font-family: sans-serif; 
+//         letter-spacing: 3px; 
+//         animation: fadeIn 1s 1.8s backwards; 
+//     }
 
-    .flat-button { 
-        color: #000000; 
-        font-size: 15px; 
-        font-weight: 800;
-        letter-spacing: 4px;
-        text-decoration: none;
-        padding: 10px 18px; 
-        border: 2px solid #5383ff; 
-        margin-top: 25px; 
-        float: left; 
-        animation: fadeIn 1s 1.8s backwards; 
-        white-space: nowrap; 
+//     .flat-button { 
+//         color: #000000; 
+//         font-size: 15px; 
+//         font-weight: 800;
+//         letter-spacing: 4px;
+//         text-decoration: none;
+//         padding: 10px 18px; 
+//         border: 2px solid #5383ff; 
+//         margin-top: 25px; 
+//         float: left; 
+//         animation: fadeIn 1s 1.8s backwards; 
+//         white-space: nowrap; 
 
-        &:hover { 
-            background: #1d3d8d; 
-            color: #ffffff;
-        }
-    }
+//         &:hover { 
+//             background: #1d3d8d; 
+//             color: #ffffff;
+//         }
+//     }
     
-}
+// }
 
-@media screen and (max-width: 1400px){
-    .home-page{
-        h1{
-            font-size: 39px;
-        }
-    }
-}
-@media screen and (max-width: 1000px){
+// @media screen and (max-width: 1400px){
+//     .home-page{
+//         h1{
+//             font-size: 39px;
+//         }
+//     }
+// }
+// @media screen and (max-width: 1000px){
     
-    .home-page{
-        h1{
-            font-size: 40px; 
-            justify-content: center;
-        }
-        .text-zone{
-            position: block;
-            width: 100%; 
-            transform: none;
-            padding: 10px;
-            box-sizing: border-box;
-            display: inline-block;
-            text-align: left;
-            padding-top: 100px;
-        }
+//     .home-page{
+//         h1{
+//             font-size: 40px; 
+//             justify-content: center;
+//         }
+//         .text-zone{
+//             position: block;
+//             width: 100%; 
+//             transform: none;
+//             padding: 10px;
+//             box-sizing: border-box;
+//             display: inline-block;
+//             text-align: left;
+//             padding-top: 100px;
+//         }
 
-        .flat-button{
-            float: none;
-            display: block;
-            width: 125px;
-        }
-    }
-}
+//         .flat-button{
+//             float: none;
+//             display: block;
+//             width: 125px;
+//         }
+//     }
+// }
 
 
 
   
-  @media screen and (max-width: 768px) {
-    .footer .footer-content {
-      flex-direction: column;
-      text-align: center;
+//   @media screen and (max-width: 768px) {
+//     .footer .footer-content {
+//       flex-direction: column;
+//       text-align: center;
   
-      .developer-details,
-      .important-links,
-      .contact-links {
-        margin: 10px 0;
-      }
+//       .developer-details,
+//       .important-links,
+//       .contact-links {
+//         margin: 10px 0;
+//       }
+//     }
+//   }
+  
+
+
+
+
+// //   
+// .developer-info {
+//     position: absolute;
+//     bottom: 20px; /* Adjust as per your layout */
+//     right: 20px; /* Adjust as per your layout */
+//     text-align: right; /* Align text to the right */
+//     color: #444;
+//     font-family: 'Arial', sans-serif;
+//     z-index: 10;
+  
+//     h1 {
+//       font-size: 18px;
+//       color: #333;
+//       margin-bottom: 10px;
+
+//        font-weight: 500; 
+//         font-size: 18px; 
+//         font-family: sans-serif; 
+//         letter-spacing: 3px; 
+//         animation: fadeIn 1s 1.8s backwards; 
+  
+//       strong {
+//         color: #1d3d8d; /* Highlight the name */
+//       }
+//     }
+  
+//     .icon-links {
+//       display: flex;
+//       gap: 30px; /* Space between icons */
+//       justify-content: flex-end; /* Align icons to the right */
+//       margin-top: 10px;
+  
+//       a {
+//         color: #444;
+//         text-decoration: none;
+//         transition: color 0.3s, transform 0.3s;
+  
+//         .icon {
+//           font-size: 38px; /* Icon size */
+//         }
+  
+//         &:hover {
+//           color: #1d3d8d; /* Change color on hover */
+//           transform: scale(1.4); /* Slight zoom on hover */
+//         }
+//       }
+//     }
+//   }
+  
+//   /* Ensure this section is visible and well-positioned on smaller screens */
+//   @media screen and (max-width: 768px) {
+//     .developer-info {
+//       bottom: 10px;
+//       right: 10px;
+//       text-align: center;
+  
+//       h2 {
+//         font-size: 12px;
+//       }
+  
+//       .icon-links {
+//         justify-content: center; /* Center icons on small screens */
+//         gap: 10px;
+  
+//         a {
+//           .icon {
+//             font-size: 16px; /* Adjust icon size for small screens */
+//           }
+//         }
+//       }
+//     }
+//   }
+  
+
+// ---------------------------
+/* Reset */
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-weight: 500;         
+    font-family: sans-serif; 
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Main Home Page */
+  .home-page {
+     font-weight: 500;         
+    font-family: sans-serif; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Text Zone Section */
+  .text-zone {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .text-zone h1 {
+    color: #1d3d8d;
+    font-size: 3rem; /* Adjusted for scalability */
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  
+  .text-zone h2 {
+    color: #002687;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+  
+  .text-zone img {
+    width: 100%; /* Responsive image */
+    max-width: 300px; /* Prevents it from becoming too large */
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .text-zone .flat-button {
+    display: inline-block;
+    color: #000;
+    background-color: transparent;
+    border: 2px solid #5383ff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    border-radius: 10px;
+  }
+  
+  .text-zone .flat-button:hover {
+    background-color: #1d3d8d;
+    color: #fff;
+  }
+  
+  /* Responsive Media Queries */
+  
+  /* For Tablets and Small Laptops */
+  @media (max-width: 1024px) {
+    .text-zone h1 {
+      font-size: 2.5rem;
+    }
+  
+    .text-zone img {
+      max-width: 250px;
+    }
+  }
+  
+  /* For Mobile Devices */
+  @media (max-width: 768px) {
+    .text-zone h1 {
+      font-size: 2rem;
+    }
+  
+    .text-zone h2 {
+      font-size: 0.9rem;
+    }
+  
+    .text-zone img {
+      max-width: 200px;
+    }
+  
+    .text-zone .flat-button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  /* For Extra Small Devices */
+  @media (max-width: 480px) {
+    .text-zone h1 {
+      font-size: 1.8rem;
+    }
+  
+    .text-zone img {
+      max-width: 150px;
+    }
+  
+    .text-zone .flat-button {
+      font-size: 0.8rem;
+      padding: 8px 16px;
     }
   }
   
 
 
-
-
-//   
 .developer-info {
     position: absolute;
     bottom: 20px; /* Adjust as per your layout */
     right: 20px; /* Adjust as per your layout */
     text-align: right; /* Align text to the right */
     color: #444;
-    // font-family: 'Arial', sans-serif;
+    font-weight: 500;         
+    font-family: sans-serif; 
     z-index: 10;
-    
-    
   
     h1 {
-      font-size: 18px;
+      font-size: 10px;
       color: #333;
       margin-bottom: 10px;
-      font-weight: 500; 
-      font-family: sans-serif; 
-      letter-spacing: 3px; 
-      opacity: 0.8;
+
+       font-weight: 500; 
+        font-size: 18px; 
+        font-family: sans-serif; 
+        letter-spacing: 3px; 
+        animation: fadeIn 1s 1.8s backwards; 
   
       strong {
         color: #1d3d8d; /* Highlight the name */
@@ -165,7 +369,7 @@
         transition: color 0.3s, transform 0.3s;
   
         .icon {
-          font-size: 38px; /* Icon size */
+          font-size: 18px; /* Icon size */
         }
   
         &:hover {
@@ -175,28 +379,76 @@
       }
     }
   }
-  
-  /* Ensure this section is visible and well-positioned on smaller screens */
-  @media screen and (max-width: 768px) {
+
+
+
+
+  /* Developer Info for Tablets and Small Laptops */
+@media (max-width: 1024px) {
     .developer-info {
-      bottom: 10px;
-      right: 10px;
-      text-align: center;
+      bottom: 15px; /* Adjust for smaller screens */
+      right: 15px; /* Adjust for smaller screens */
+      text-align: center; /* Center the text on smaller screens */
+    }
   
-      h2 {
-        font-size: 12px;
-      }
+    .developer-info h1 {
+      font-size: 10px; /* Reduce font size for better fit */
+      margin-bottom: 8px; /* Adjust margin for smaller text */
+    }
   
-      .icon-links {
-        justify-content: center; /* Center icons on small screens */
-        gap: 10px;
+    .developer-info .icon-links {
+      gap: 20px; /* Reduce space between icons */
+      justify-content: center; /* Center the icons */
+    }
   
-        a {
-          .icon {
-            font-size: 16px; /* Adjust icon size for small screens */
-          }
-        }
-      }
+    .developer-info .icon-links a .icon {
+      font-size: 32px; /* Adjust icon size */
+    }
+  }
+  
+  /* Developer Info for Mobile Devices */
+  @media (max-width: 768px) {
+    .developer-info {
+      bottom: 10px; /* Adjust for very small screens */
+      right: 10px; /* Adjust for very small screens */
+      text-align: center; /* Center the text */
+    }
+  
+    .developer-info h1 {
+      font-size: 14px; /* Further reduce font size */
+      margin-bottom: 6px; /* Adjust margin for smaller screens */
+    }
+  
+    .developer-info .icon-links {
+      gap: 15px; /* Reduce space between icons */
+      justify-content: center; /* Center icons */
+    }
+  
+    .developer-info .icon-links a .icon {
+      font-size: 18px; /* Smaller icon size */
+    }
+  }
+  
+  /* Developer Info for Extra Small Devices */
+  @media (max-width: 480px) {
+    .developer-info {
+      bottom: 5px; /* Adjust position to fit small screens */
+      right: 5px; /* Adjust position to fit small screens */
+      text-align: center; /* Center text */
+    }
+  
+    .developer-info h1 {
+      font-size: 6px; /* Further reduce font size */
+      margin-bottom: 4px; /* Adjust margin for extra small screens */
+    }
+  
+    .developer-info .icon-links {
+      gap: 10px; /* Further reduce space between icons */
+      justify-content: center; /* Center icons */
+    }
+  
+    .developer-info .icon-links a .icon {
+      font-size: 18px; /* Smaller icon size for mobile */
     }
   }
   

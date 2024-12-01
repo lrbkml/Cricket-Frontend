@@ -47,13 +47,13 @@ const Home = () => {
             <h1>Developed by <strong>Laraib Kamal</strong></h1>
             
             <div className="icon-links">
-              <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/lrbkml" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="icon" title="GitHub" />
               </a>
-              <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/lkasdar/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="icon" title="LinkedIn" />
               </a>
-              <a href="https://johndoeportfolio.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://laraibkml.netlify.app/" target="_blank" rel="noopener noreferrer">
                 <FaGlobe className="icon" title="Portfolio" />
               </a>
             </div>

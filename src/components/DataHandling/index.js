@@ -58,7 +58,7 @@ const DataHandling = () => {
             <th>Ducks</th>
             <th>Fifties</th>
             <th>Hundreds</th>
-            <th>200s</th>
+            {/* <th>200s</th> */}
             <th>Wickets Taken</th>
             <th>Balls Delivered</th>
             <th>Runs as Bowler</th>
@@ -68,7 +68,7 @@ const DataHandling = () => {
             <th>Bowling Strike Rate</th>
             <th>4-Wicket Hauls</th>
             <th>5+ Wicket Hauls</th>
-            <th>Minutes Played</th>
+            {/* <th>Minutes Played</th> */}
             <th>Team</th>
         </tr>
     </thead>
@@ -93,7 +93,7 @@ const DataHandling = () => {
                <td>{player.duck}</td>
                <td>{player.fifty}</td>
                <td>{player.hundred}</td>
-               <td>{player.twoHundred}</td>
+               {/* <td>{player.twoHundred}</td> */}
                <td>{player.wicket_taken}</td>
                <td>{player.ball_delivered}</td>
                <td>{player.run_as_bowler}</td>
@@ -103,7 +103,7 @@ const DataHandling = () => {
                <td>{player.sr_ball}</td>
                <td>{player.fourwicket}</td>
                <td>{player.plusfourwicket}</td>
-               <td>{player.minutesPlayed}</td>
+               {/* <td>{player.minutesPlayed}</td> */}
                <td>{player.team}</td>
            </tr>
             ))}
